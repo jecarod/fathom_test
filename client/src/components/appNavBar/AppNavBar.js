@@ -23,13 +23,13 @@ export const AppNavBar = () => {
                 {user ?
                     <>
                         <Navbar.Brand as={Link} to="/home">
-                            Eciglogística
+                            Home
                         </Navbar.Brand>
                     </>
                     :
                     <>
                         <Navbar.Brand as={Link} to="/">
-                            Eciglogística
+                            Home
                         </Navbar.Brand>
                     </>
                 }
